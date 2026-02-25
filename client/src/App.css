@@ -1,0 +1,150 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #112240;
+  background: #f4f8fc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #f6f9ff 0%, #edf3fb 100%);
+}
+
+.page {
+  min-height: 100vh;
+}
+
+.hero {
+  background: radial-gradient(circle at top right, #76a9ff 0%, #2f5ebf 35%, #0f2558 100%);
+  color: #fff;
+  padding: 1.5rem 6vw 4rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.brand {
+  margin: 0;
+  letter-spacing: 0.04em;
+}
+
+.hero-content {
+  max-width: 660px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  opacity: 0.85;
+}
+
+.hero h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  margin: 0.6rem 0;
+}
+
+.hero p {
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+button {
+  border: none;
+  border-radius: 999px;
+  padding: 0.75rem 1.3rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cta {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.primary {
+  background: #ffce5d;
+  color: #14274f;
+}
+
+.secondary {
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.section {
+  padding: 2.5rem 6vw;
+}
+
+.section h3 {
+  margin: 0 0 1rem;
+  font-size: 1.6rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.homes {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.services {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  box-shadow: 0 16px 28px rgba(17, 34, 64, 0.08);
+}
+
+.home-card {
+  border-top: 4px solid #2f5ebf;
+}
+
+.home-card h4,
+.card h4 {
+  margin: 0.4rem 0;
+}
+
+.home-card p,
+.card p {
+  margin: 0.3rem 0;
+  color: #415678;
+}
+
+.tag {
+  display: inline-block;
+  background: #e9f1ff;
+  color: #214c9e;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+}
+
+strong {
+  display: inline-block;
+  margin-top: 0.6rem;
+  color: #0f2558;
+  font-size: 1.05rem;
+}
